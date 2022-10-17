@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+div.logo {
+  color: #2e75b5;
+  font-size: 15px;
+  margin: 2px 10px;
+}
+
+span.logo {
+  color: #2f5496;
+  font-size: 38px;
+}
+
+.container {
+  height: calc(100vh - 48px);
+  background-color: #2179bf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-to-email {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.form-to-email h3 {
+  color: #f44336;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-to-email input,
+.form-to-email textarea {
+  border: 0;
+  outline: 0;
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #f5f5f5;
+  font-size: 16px;
+  border-radius: 30px;
+}
+
+.form-to-email button {
+  padding: 15px;
+  margin: 20px auto 0;
+  width: 150px;
+  border: 0;
+  outline: 0;
+  color: white;
+  background-color: #f44336;
+  font-size: 18px;
+  border-radius: 30px;
+  cursor: pointer;
+}
